@@ -1,0 +1,27 @@
+.header{
+    background-image: url(../img/wall.png);
+}
+
+.main{
+    background-image: url(../img/cork.png);
+}
+
+.row{
+    position: relative;
+}
+
+.pin{
+    width: 35px;
+    position: absolute;
+    top: 0;
+    left: 190px
+}
+
+.title{
+  font-family: "Sometype Mono", monospace;
+  font-size: 100px;
+ 
+}
+.description{
+    font-family: "Edu TAS Beginner", cursive;
+}
