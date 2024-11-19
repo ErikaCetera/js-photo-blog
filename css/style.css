@@ -6,7 +6,7 @@
     background-image: url(../img/cork.png);
 }
 
-.row{
+.card{
     position: relative;
 }
 
@@ -23,5 +23,5 @@
  
 }
 .description{
-    font-family: "Edu TAS Beginner", cursive;
+    font-family: "Edu TAS Beginner";
 }
