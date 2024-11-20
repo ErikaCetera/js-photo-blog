@@ -1,16 +1,20 @@
-.header{
+/* HEADER */
+
+.header {
     background-image: url(../img/wall.png);
 }
 
-.main{
+/* MAIN*/
+.main {
     background-image: url(../img/cork.png);
 }
 
-.card{
+/* CARD */
+.card {
     position: relative;
 }
 
-.pin{
+.pin {
     width: 40px;
     position: absolute;
     top: 0;
@@ -18,11 +22,37 @@
     transform: translate(-50%, -50%);
 }
 
-.title{
-  font-family: "Sometype Mono", monospace;
-  font-size: 100px;
- 
+.title {
+    font-family: "Sometype Mono", monospace;
+    font-size: 100px;
+
 }
-.description{
+
+.description {
     font-family: "Edu TAS Beginner";
+}
+
+/* OVERLAY */
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.632);
+    z-index: 999;
+}
+
+/* MODALE */
+
+.modale {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modale img {
+    width: 400px
 }
