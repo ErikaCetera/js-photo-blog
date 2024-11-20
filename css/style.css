@@ -11,10 +11,11 @@
 }
 
 .pin{
-    width: 35px;
+    width: 40px;
     position: absolute;
     top: 0;
-    left: 190px
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .title{

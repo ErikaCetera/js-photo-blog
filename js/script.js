@@ -5,10 +5,10 @@ const printPhotos = () =>{
     let cards ="";
     photos.forEach(curPhoto => {
         cards += `
-        <div class="col-4">
+        <div class="col-12 col-md-6 col-lg-4">
                     <div class="card p-3">
                         <img class="pin" src="./img/pin.svg" alt="">
-                        <img src="${curPhoto.url}" alt${curPhoto.title}
+                        <img src="${curPhoto.url}" alt${curPhoto.title}>
                         <p class="description pt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis hic</p>
                     </div>
                 </div>
