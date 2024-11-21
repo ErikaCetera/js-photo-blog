@@ -12,6 +12,14 @@
 /* CARD */
 .card {
     position: relative;
+    cursor: pointer;
+    transition: transform 0.4s;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card:hover { transform: scale(1.1) rotate(10deg); 
+    filter: brightness(0.9);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
 }
 
 .pin {
@@ -53,6 +61,4 @@
     transform: translate(-50%, -50%);
 }
 
-.modale img {
-    width: 400px
-}
+
