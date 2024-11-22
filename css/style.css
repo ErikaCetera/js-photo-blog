@@ -13,13 +13,13 @@
 .card {
     position: relative;
     cursor: pointer;
-    transition: transform 0.4s;
+    transition: transform  0.5s;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 .card:hover { transform: scale(1.1) rotate(10deg); 
     filter: brightness(0.9);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
 }
 
 .pin {
@@ -27,7 +27,7 @@
     position: absolute;
     top: 0;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%);
 }
 
 .title {
@@ -60,5 +60,4 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 
